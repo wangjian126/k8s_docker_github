@@ -8,9 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/demo")
 public class DemoController {
-	/**
-	 * 获取参数配置列表
-	 */
+
 	@GetMapping("/getInfo")
 	public String getInfo()
 	{
